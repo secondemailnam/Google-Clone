@@ -34,7 +34,7 @@ body {
     justify-content: center
 }
 
-.typingsearch {
+.search-engine-container {
     display: flex;
     margin-top: 30px;
     justify-content: center;
@@ -67,6 +67,28 @@ body {
 }
 
 .searchengine:hover {
-    box-shadow: 2px 2px 6px 0 #20212447;
+    box-shadow: 1px 1px 1px 1px #20212447;
     border-color: #dfe1e500;
 }
+
+.search-button-icon, .felling-button-icon{
+    height: 40px;
+    border-bottom-left-radius:5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding-bottom: 0px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 0px;
+    font-size: 14px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-top-style: none;
+    border-top-width: 0px
+}
+
